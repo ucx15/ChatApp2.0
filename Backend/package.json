@@ -1,0 +1,26 @@
+{
+  "name": "backend-chatapp",
+  "version": "1.0.0",
+  "main": "server.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "nodemon ./Dist/server.js",
+    "start": "node ./Dist/server.js"
+  },
+  "author": "ucx15",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
