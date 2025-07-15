@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "Backend",
+			"problemMatcher": [],
+			"label": "Backend Dev Server",
+			"detail": "nodemon ./Dist/server.js"
+		},
+		{
+			"type": "npm",
+			"script": "watch",
+			"path": "Backend",
+			"problemMatcher": [],
+			"label": "Backend TS Watch",
+			"detail": "tsc --watch --preserveWatchOutput"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "Frontend",
+			"problemMatcher": [],
+			"label": "Frontend Dev",
+			"detail": "npm run dev"
+		},
+		{
+			"label": "Start All",
+			"dependsOn": [
+				"Backend Dev Server",
+				"Backend TS Watch",
+				"Frontend Dev"
+			],
+			"dependsOrder": "parallel",
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
