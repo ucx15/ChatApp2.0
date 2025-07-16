@@ -1,7 +1,7 @@
 
 // import React from 'react'
 
-import AuthContainer from '../../components/AuthContainer'
+import AuthContainer from '../../components/AuthForm/AuthContainer'
 import styles from './auth.module.css'
 
 const AuthPage = () => {
