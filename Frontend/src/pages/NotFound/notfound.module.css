@@ -1,0 +1,53 @@
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+
+  /* text-shadow :
+  0 0 0px hsl(0, 100%, 100%),
+  0 0 4px hsl(0, 100%, 90%),
+  0 0 8px hsl(0, 100%, 80%),
+  0 0 16px hsl(0, 100%, 70%),
+  20px 0 32px hsl(0, 100%, 60%),
+  -20px 0 32px hsl(352, 100%, 50%),
+  0 0 50px hsl(0, 100%, 60%),
+  0 0 100px hsl(0, 100%, 80%),
+  0 0 150px hsl(352, 100%, 86%),
+  0 0 180px hsl(0, 100%, 80%); */
+}
+
+._404 {
+  /* font-weight: bold; */
+  font-size: 10rem;
+}
+
+.pnf {
+  font-size: 2.4rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.text {
+
+  font-weight: bold;
+  color : black;
+
+  --a: hsl(0, 60%, 21%);
+  --b: hsl(352, 61%, 75%);
+  --c: hsl(348, 100%, 50%);
+
+  /* text-shadow:
+  0 0 2px var(--a),
+  0 0 4px var(--a),
+  0 0 8px var(--a),
+
+  0 0 16px var(--b),
+  0 0 32px var(--b),
+  0 0 64px var(--b),
+
+  0 0 128px var(--c),
+  0 0 256px var(--c),
+  0 0 512px var(--c); */
+}

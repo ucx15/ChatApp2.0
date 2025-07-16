@@ -1,7 +1,13 @@
 .App {
   /* display: flex; */
-  /* background-color: #ff77bd; */
-  /* background: linear-gradient(to bottom,rgb(95, 210, 255), #e5cbff 4%,#f894ff, #ff77bd); */
-  /* min-height: 100vh; */
-  /* min-width: 100vw; */
+  background-color: rgb(47, 0, 0);
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  text-align: justify;
+
+
+  background: url("/assets/Images/tilak-baloni-DawmsiVr188-unsplash.webp") no-repeat center center;
+  background-size: cover;
 }
