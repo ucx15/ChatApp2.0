@@ -16,7 +16,8 @@ const AuthContainer = () => {
 				<button id="btn-submit" type="submit">Signup</button>
 			</form>
 
-			<p className="info-footer">Have an account? <a href="login.html">Login</a></p>
+			{/* TODO: change its logic to use states and shit */}
+			{/* <p className="info-footer">Have an account? <a href="login.html">Login</a></p> */}
 
 		</div>
 	)

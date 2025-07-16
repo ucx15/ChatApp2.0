@@ -1,6 +1,7 @@
-.app {
-  display: flex;
-  background-color: #ff77bd;
-  background: linear-gradient(to bottom,rgb(95, 210, 255), #e5cbff 4%,#f894ff, #ff77bd);
-  min-height: 100vh;
+.App {
+  /* display: flex; */
+  /* background-color: #ff77bd; */
+  /* background: linear-gradient(to bottom,rgb(95, 210, 255), #e5cbff 4%,#f894ff, #ff77bd); */
+  /* min-height: 100vh; */
+  /* min-width: 100vw; */
 }
