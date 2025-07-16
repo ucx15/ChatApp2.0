@@ -1,10 +1,13 @@
-import './App.css'
+// import './App.css'
+import AuthPage from './pages/Auth/auth.page'
+// import HomePage from './pages/home.page'
 
 function App() {
 
   return (
     <div className="app">
-      <h1>ChatApp</h1>
+      <AuthPage />
+      {/* <HomePage /> */}
     </div>
   )
 }

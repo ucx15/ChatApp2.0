@@ -1,0 +1,15 @@
+.authPage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	color: var(--fg-color);
+
+	background-color: var(--bg-color);
+	background-image: url("/assets/Images/batman2_1600px.jpg");
+	background-size: cover;
+
+
+	min-height: 100vh;
+}
