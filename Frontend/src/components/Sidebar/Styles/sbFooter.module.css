@@ -1,0 +1,25 @@
+.sbFooter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding: 10px 4px;
+	min-height: 4rem;
+}
+
+.logoutBtn {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 80%;
+
+	font-weight: bold;
+	font-size: 1.2rem;
+	background-color: var(--reject-color);
+	border-radius: 8px;
+}
+
+.logoutBtn:hover {
+	cursor: pointer;
+}

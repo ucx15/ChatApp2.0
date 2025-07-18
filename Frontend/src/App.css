@@ -8,6 +8,15 @@
   text-align: justify;
 
 
-  background: url("/assets/Images/tilak-baloni-DawmsiVr188-unsplash.webp") no-repeat center center;
+  /* background: url("/assets/Images/tilak-baloni-DawmsiVr188-unsplash.webp") no-repeat center center; */
+  background: url("/assets/Images/batman1_1600px.jpg") no-repeat center center;
   background-size: cover;
+}
+
+
+.icon-img {
+  filter: invert(1);
+  width: 1.2rem;
+
+  pointer-events: none;
 }

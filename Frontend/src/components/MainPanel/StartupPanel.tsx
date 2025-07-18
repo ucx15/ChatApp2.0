@@ -1,8 +1,8 @@
 // import React from 'react'
-import styles from './mainPanel.module.css';
+import styles from './startupPanel.module.css';
 
 
-const MainPanel = () => {
+const StartupPanel = () => {
 	return (
 		<>
 			<div id="main-content-container" className={styles.mainContentContainer}>
@@ -43,4 +43,4 @@ const MainPanel = () => {
 	)
 }
 
-export default MainPanel
+export default StartupPanel

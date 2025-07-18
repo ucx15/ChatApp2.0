@@ -1,0 +1,35 @@
+
+.searchBar {
+	/* visibility: collapse; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: .4em;
+	background-color: var(--b2-color);
+	border: .1em solid var(--fg3-color);
+	border-radius: .4em;
+
+	& input {
+		width: 100%;
+		padding: .4em;
+
+		font-size: 1.2rem;
+
+		color: var(--fg-color);
+		background: none;
+
+		outline: none;
+		border: none;
+		border-radius: .2em;
+	}
+
+	.searchButton {
+		text-align: center;
+		width: 3rem;
+		padding: .4em;
+		border-radius: .2em;
+		cursor: pointer;
+	}
+}
+

@@ -10,7 +10,7 @@
 	border-radius: 1.6em;
 
 	box-shadow: 0 0 2em .1em black;
-	background-color: var(--bg2-color);
+	background-color: #121218b0;
 	backdrop-filter: blur(.6em);
 
 	& h1 {

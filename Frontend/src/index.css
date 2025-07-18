@@ -1,29 +1,42 @@
 :root {
+	--username-fsize: 1.8rem;
+
 	--fg-color: #eee;
 	--fg2-color: #aaa;
 	--fg3-color: #666;
 
 	--bg-color: #121212;
-	--bg2-color: #121218b0;
+	--bg2-color: #161620b0;
 	--bg3-color: #404040;
 
 	--reject-color: hsl(348, 70%, 28%);
 	--reject2-color: hsl(348, 70%, 20%);
-}
 
+	--accent-color: hsl(218, 10%, 28%);
+
+	--sb-label-size: .9rem;
+	--sb-bg-mobile: #121218b0;
+
+	--header-bg-color: #0a0a0a;
+
+	--message-fsize: 1rem;
+	--msg-fg-color: white;
+	--incoming-msg-color: #333333;
+	--outgoing-msg-color: #183eb0;
+}
 
 *,
 *::before,
 *::after {
 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
 
-  font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
+	min-height: 100vh;
+	font-family: Arial, Helvetica, sans-serif;
 }
