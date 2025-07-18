@@ -1,6 +1,6 @@
 .App {
   /* display: flex; */
-  background-color: rgb(47, 0, 0);
+  background-color: darkred;  /*For debugging*/
 
   min-height: 100vh;
   min-width: 100vw;
@@ -9,7 +9,7 @@
 
 
   /* background: url("/assets/Images/tilak-baloni-DawmsiVr188-unsplash.webp") no-repeat center center; */
-  background: url("/assets/Images/batman1_1600px.jpg") no-repeat center center;
+  /* background: url("/assets/Images/batman1_1600px.jpg") no-repeat center center; */
   background-size: cover;
 }
 

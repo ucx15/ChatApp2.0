@@ -1,0 +1,16 @@
+.chatArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	flex-grow: 1;
+}
+
+.chatBody {
+	height: 92vh;
+	background-color: var(--bg2-color);
+	background-image: url("/assets/Images/batman1_1600px.jpg");
+	/* background-image: url("/assets/Images/batman2_1600px.jpg"); */
+	background-size: cover;
+	background-position: center center;
+}

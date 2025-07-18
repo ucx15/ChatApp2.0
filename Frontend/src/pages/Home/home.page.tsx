@@ -3,7 +3,7 @@
 // Components
 import Sidebar from '../../components/Sidebar/sidebar';
 // import StartupPanel from '../../components/MainPanel/StartupPanel';
-// import ChatArea from '../../components/ChatArea/ChatArea';
+import ChatArea from '../../components/ChatArea/ChatArea';
 
 // Styles
 import styles from './home.module.css';
@@ -33,7 +33,7 @@ const HomePage = () => {
       {/* <StartupPanel /> */}
 
       {/* Chat Area */}
-      {/* <ChatArea /> */}
+      <ChatArea />
 
     </div>
   )

@@ -1,0 +1,48 @@
+
+/* Sender Bar */
+
+.senderBar {
+	z-index: 1;
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+	justify-content: space-around;
+	min-height: 8vh;
+	background-color: var(--bg-color);
+}
+
+.senderField {
+	padding: 5px;
+	width: 82%;
+	height: 3rem;
+
+	color: var(--fg-color);
+	background: none;
+
+	border: 2px solid var(--fg3-color);
+	border-radius: 10px;
+}
+
+.senderBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+
+	height: 100%;
+	width: 15%;
+	max-width: 4rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:active {
+		transform: scale(0.9);
+	}
+
+	& img {
+		width: 1.6rem;
+	}
+}
